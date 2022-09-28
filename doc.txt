@@ -1,0 +1,69 @@
+Utilisation de l’api : APImeal.js
+
+Nom de l’api : APImeal.js
+L’api a 5 points d’entrés : (routes)
+Qui sont : 
+/
+/ create
+/ list
+/ message
+/ boobool
+-------------------------------------------------------------------------
+/ 
+Doc de l’api
+Equivalent a cette doc
+
+Voici le détail des diverses routes
+------------------------------------------------------------------------
+/create 
+Requête attendue méthode : POST
+Variables attendues : 	exped 		(expéditeur)
+						dest		(destinataire)
+						sujet		(sujet du message)
+						message	(message à envoyer)
+						image		(image de l’utilisateur) à redéfinir
+
+id, date, etat, et lu sont indisponibles et fixés par le serveur
+-------------------------------------------------------------------------
+/list 
+Renvoie la liste des messages
+Requête attendue méthode :  GET
+
+Syntaxe attendue :	/list 		renvoie la liste sans filtre
+					/list/lu 		filtre par lu (false ou true)
+					/list/date		filtre par date par ordre le plus récent au début
+					/list/exped		filtre par expéditeur par ordre alphabétique
+-------------------------------------------------------------------------
+/message
+Renvoie le message désigné par un id
+Requête attendue méthode :  GET
+
+
+Syntaxe attendue :  /message/id
+
+-------------------------------------------------------------------------
+
+/boobool
+Modifie l’état de LU : dans le message demandé par ID
+Requête attendue méthode :  PUT (en attente) à fixer
+
+
+Syntaxe attendue :  /boobool/id
+
+Ne renvoie aucune donnée coté client
+-------------------------------------------------------------------------
+
+
+L’API renvoie les headers/réponses	
+
+200 pour une opération réussie avec renvoi de données
+204 pour une opération réussie sans renvoi de données (sans retour utilisateur)
+404 pour une opération sur une ressource manquante (id, ou frappe erronée)				
+
+
+
+
+
+
+
+
