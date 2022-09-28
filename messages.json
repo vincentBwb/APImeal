@@ -1,0 +1,68 @@
+[
+    { 
+        "id" : "0",
+        "exped" : "test",
+        "dest":"test",
+        "sujet" : "test",
+        "message" : "test",
+        "etat" : "test",
+        "lu" : true,
+        "date" :"2021-07-08 12:20:04",
+        "joint" : "imagetest.png"
+    },
+    { 
+        "id" : "1",
+        "exped" : "toto",
+        "dest":"toto@blub.fr",
+        "sujet" : "vacance",
+        "message" : "Coucou, on se casse",
+        "etat" : "Envoyé",
+        "lu" : true,
+        "date" : "2021-02-08 12:22:04",
+        "joint" : "image.png"
+    },
+    { 
+        "id" : "2",
+        "exped" : "mimi",
+        "dest":"mimi@blub.fr",
+        "sujet" : "boulot",
+        "message" : "Y en a marre",
+        "etat" : "Envoyé",
+        "lu" : true,
+        "date" : "2021-09-08 12:20:04",
+        "joint" : "image.png"
+    },
+    { 
+        "id" : "3",
+        "exped" : "loic",
+        "dest":"loic@blub.fr",
+        "sujet" : "loisirs",
+        "message" : "Oullalala",
+        "etat" : "Envoyé",
+        "lu" : false,
+        "date" : "2019-07-08 12:20:05",
+        "joint" : "image.png"
+    },
+    { 
+        "id" : "4",
+        "exped" : "blanchefesses",
+        "dest":"blanchefesses@blub.fr",
+        "sujet" : "jardin",
+        "message" : "Qu'est ce qu'on plante?",
+        "etat" : "Envoyé",
+        "lu" : false,
+        "date" : "2016-07-08 12:20:05",
+        "joint" : "image.png"
+    },
+    { 
+        "id" : "5",
+        "exped" : "zorro",
+        "dest":"bernardo@blub.fr",
+        "sujet" : "voiture",
+        "message" : "Uno cavaliero qui sourgit or de la nuuittt....",
+        "etat" : "Envoyé",
+        "lu" : false,
+        "date" : "2015-03-08 22:20:04",
+        "joint" : "image.png"
+    }
+]

@@ -1,0 +1,16 @@
+
+Resource files:
+    - doc.txt
+    - messages.json
+
+Server files:
+    - APImeal.js (main file)
+
+Modules files:
+    - doc.js
+    - create.js
+    - remove.js
+    - list.js
+    - message.js
+    - boobool.js
+    - database.js
